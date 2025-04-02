@@ -4,6 +4,7 @@ Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
 * Sophia Wennersten
 * Christine Blomstrand
 
+
 ## Avgränsningar
 - Body-sektionen "Liknande produkter" (eftersom identisk sektion "Andra gillade också" kommer återskapas).
 - Bilder "utanför skärm" för att indikera bildkaruseller
@@ -16,20 +17,20 @@ Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
 ## TO DO:
 
 ## Header
-[ ] 1.
-[ ] 2.
+- [ ] 1.
+- [ ] 2.
 
 ## Body
-[ ] 1.
-[ ] 2.
+- [ ] 1.
+- [ ] 2.
 
 ## Footer
-[ ] 1.
-[ ] 2.
+- [ ] 1.
+- [ ] 2.
 
 ## Övrigt
 
-[ ] Grafisk profil - CB
+- [ ] Grafisk profil - CB
 - Textfärg - #2e2424;
 - Blå i header - blue-dark: #003aab
 - Blå knappar - blue-dark: #003aab
@@ -39,7 +40,7 @@ Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
 - Blå text i footer: #003da6;
 - Font: "Atyp", "arial", sans-serif;
 
-[X] Lägg upp skärmdumpar - CB
+- [X] Lägg upp skärmdumpar - CB
 
 
 ## Responsivitet
@@ -65,10 +66,10 @@ FOOTER
 
 
 Skärmdumper på följande skärmbredder:
-* 630
-* 768
-* 800
-* 898
-* 1023
-* 1168
-* 1280
+630
+768
+800
+898
+1023
+1168
+1280
