@@ -4,6 +4,8 @@ Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
 * Sophia Wennersten
 * Christine Blomstrand
 
+## Webbsida att återskapa
+https://www.lagerhaus.se/utomhus-1/balkong/hangmatta-kramvit
 
 ## Avgränsningar
 - Body-sektionen "Liknande produkter" (eftersom identisk sektion "Andra gillade också" kommer återskapas).
@@ -13,6 +15,7 @@ Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
     - Bildkaruseller
     - Fold-outs/Fold-downs
     - Chatt-knappen
+
 
 ## TO DO:
 
