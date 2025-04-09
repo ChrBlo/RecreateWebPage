@@ -69,10 +69,10 @@ FOOTER
 
 
 Skärmdumper på följande skärmbredder:
-630
-768
-800
-898
-1023
-1168
-1280
+630 - 39.38 rem
+768 - 48 rem
+800 - 50 rem
+898 - 56.13 rem
+1023 - 63.94 rem
+1168 - 73 rem
+1280 - 80 rem
