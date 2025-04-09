@@ -46,23 +46,23 @@ Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
 ## Responsivitet
 
 HEADER
-* 0 -> 630 Mindre text i övre blå header, liten vit "endast online" 
-* 1023 -> 1279 Stort sökfält försvinner och övre header är blå, vit "endast online" blir större
-* 1280 -> Bredaste med fler ikoner i header, vit övre header och stort sökfält
+[X] 0 -> 630 Mindre text i övre blå header, liten vit "endast online" 
+[ ] 1023 -> 1279 Stort sökfält försvinner och övre header är blå, vit "endast online" blir större
+[ ] 1280 -> Bredaste med fler ikoner i header, vit övre header och stort sökfält
 
 BODY
-* 630 -> 799 EN Stor produktbild, liten breadcrumb, "lägg i varukorg" som aside i botten av sidan, Matcha med ligger under produktinfo, i kolumn med prod-bilder
-* 800 -> Fler produktbilder, större breadcrumb, "lägg i varukorg" mitt i produktinformationen
+[ ] 630 -> 799 EN Stor produktbild, liten breadcrumb, "lägg i varukorg" som aside i botten av sidan, Matcha med ligger under produktinfo, i kolumn med prod-bilder
+[ ] 800 -> Fler produktbilder, större breadcrumb, "lägg i varukorg" mitt i produktinformationen
 
 "Andra gillar"-karusell 
-* Skalar med sidan men går från 2-bilder till 3 vid 768 (printscreena båda karusell-scenarion!!)
+[ ] Skalar med sidan men går från 2-bilder till 3 vid 768 (printscreena båda karusell-scenarion!!)
 
 FOOTER
-* 0 -> 767 Footer lista med footer-headers som dropdowns 
-* 768 -> 799 LagerHaus-info med soc.medie-loggor längst ned, footer-headers med synliga underkategorier
-* 800 -> 897 LagerHaus-info med soc.medie-loggor till vänster,  footer-headers (2kolumner!) med synliga underkategorier till höger
-* 898 -> 1167 samma som steget innan MEN 3 kolumner footer-headers 
-* 1168 -> samma som steget innan MEN 4 kolumner footer-headers
+[ ] 0 -> 767 Footer lista med footer-headers som dropdowns 
+[ ] 768 -> 799 LagerHaus-info med soc.medie-loggor längst ned, footer-headers med synliga underkategorier
+[ ] 800 -> 897 LagerHaus-info med soc.medie-loggor till vänster,  footer-headers (2kolumner!) med synliga underkategorier till höger
+[ ] 898 -> 1167 samma som steget innan MEN 3 kolumner footer-headers 
+[ ] 1168 -> samma som steget innan MEN 4 kolumner footer-headers
 
 
 Skärmdumper på följande skärmbredder:
