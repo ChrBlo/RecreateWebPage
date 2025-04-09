@@ -4,6 +4,8 @@ Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
 * Sophia Wennersten
 * Christine Blomstrand
 
+## Webbsida att återskapa
+https://www.lagerhaus.se/utomhus-1/balkong/hangmatta-kramvit
 
 ## Avgränsningar
 - Body-sektionen "Liknande produkter" (eftersom identisk sektion "Andra gillade också" kommer återskapas).
@@ -13,6 +15,7 @@ Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
     - Bildkaruseller
     - Fold-outs/Fold-downs
     - Chatt-knappen
+
 
 ## TO DO:
 
@@ -38,7 +41,7 @@ Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
 - Laxrosa pastell i footer: footer-background: #fbd7c8
 - "orange" streck mellan dropdowns i minsta footer: #ed6c45;
 - Blå text i footer: #003da6;
-- Font: "Atyp", "arial", sans-serif;
+- Fontfamily: "Atyp", "arial", sans-serif;
 
 - [X] Lägg upp skärmdumpar - CB
 
@@ -66,10 +69,10 @@ FOOTER
 
 
 Skärmdumper på följande skärmbredder:
-630
-768
-800
-898
-1023
-1168
-1280
+630 - 39.38 rem
+768 - 48 rem
+800 - 50 rem
+898 - 56.13 rem
+1023 - 63.94 rem
+1168 - 73 rem
+1280 - 80 rem
