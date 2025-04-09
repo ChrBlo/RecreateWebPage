@@ -38,7 +38,7 @@ Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
 - Laxrosa pastell i footer: footer-background: #fbd7c8
 - "orange" streck mellan dropdowns i minsta footer: #ed6c45;
 - Blå text i footer: #003da6;
-- Font: "Atyp", "arial", sans-serif;
+- Fontfamily: "Atyp", "arial", sans-serif;
 
 - [X] Lägg upp skärmdumpar - CB
 
