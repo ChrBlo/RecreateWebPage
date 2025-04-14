@@ -34,6 +34,7 @@ https://www.lagerhaus.se/utomhus-1/balkong/hangmatta-kramvit
 ## Övrigt
 
 - [ ] Grafisk profil - CB
+- Backgrund- #fffef8
 - Textfärg - #2e2424;
 - Blå i header - blue-dark: #003aab
 - Blå knappar - blue-dark: #003aab
