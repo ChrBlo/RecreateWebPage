@@ -1,0 +1,122 @@
+.outer-section{
+    background: #fde7dd;
+    height: 740.516px;
+    margin-top: 50px; 
+    color: #003aab;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-div{
+    /* background-color: rgb(255, 208, 137); */
+    height: 660.516;
+    width: 576px;
+    padding: 50px 12px 30px 12px;
+    margin: 0 82px 0 82px;
+}
+
+.content-div{
+    height: 660.516;
+    /* width: 100%; */
+    /* padding-bottom: 30px; */
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+.links-content{
+    /* background-color: rgb(203, 255, 152); */
+    height: 265.750px;
+    width: 576px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.text-content{
+    /* background-color: rgb(255, 152, 221); */
+    height: 364.766px;
+    width: 576px;
+    font-size: 1.125rem;
+}
+
+.list-footer-options p{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.footer-logo {
+    width: 576px;
+    height: 42.078px;
+    margin-bottom: 20px;
+}
+
+.footer-logo-img {
+    width: 225px;
+    height: auto;
+}
+
+.footer-social {
+    width: 576px;
+    height: 42.078px;
+    margin-top: 20px;
+}
+
+.footer-content{
+    width: 576px;
+    height: 166.4px;
+}
+.footer-content p {
+    margin: 0;
+}
+
+.social-media-icons {
+    width: 225px;
+    height: auto;
+}
+
+/* Mindre än 630px */
+@media (width < 39.375rem) {
+    p {
+        font-size: 1rem;
+        line-height: 1.4;
+        font-family: Arial, Helvetica, sans-serif;        
+        color: #003aab;
+    }
+
+    .outer-section{
+        height: 40.587rem; /* 649.391px */
+    }
+}
+
+/* Större eller lika med 630 px */
+@media (width >= 39.375rem) and (width < 48rem) {
+    .outer-section{
+        height: 46.282rem; /* 740.516px */
+    }
+}
+
+/* Större eller lika med 768 px */
+@media (width >= 48rem) and (width < 50rem) {
+    .outer-section {
+        height: 88.981rem; /* 1423.7px */
+    }
+} 
+
+/* Större eller lika med 800 px */
+@media (width >= 50rem) {
+    .outer-section {
+        height: 66.184rem; /* 1058.94px */
+    }
+} 
+
+/* Större eller lika med 898 px */
+@media (width >= 56.125rem) {
+    /*Här växlar den inte i höjd med skiftar i antal footer-kolumner*/
+} 
+

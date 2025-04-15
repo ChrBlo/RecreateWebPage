@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols" />
-    <link rel="stylesheet" href="mobile-header.css">
-    <link rel="stylesheet" href="mobile-footer.css">
-    <link rel="stylesheet" href="tablet-header.css">
-    <link rel="stylesheet" href="desktop-header.css">
-
+    <link rel="stylesheet" href="mobile/mobile-header.css">
+    <link rel="stylesheet" href="mobile/mobile-footer.css">
+    <link rel="stylesheet" href="mobile/mobile-bottom-sidebar.css">
+    <link rel="stylesheet" href="mobile/mobile-body.css">
+    <link rel="stylesheet" href="desktop/desktop-header.css">
+    <link rel="stylesheet" href="desktop/desktop-header.css">
+    <link rel="stylesheet" href="tablet/tablet-header.css">
+    <link rel="stylesheet" href="tablet/tablet-footer.css">
 </head>
 
 <body>
@@ -45,9 +48,9 @@
                 </span>
                 <div> </div>
                 <picture>
-                    <source srcset="logga.jpg" media="(max-width: 63.93rem)">
-                    <source srcset="logga-stor.jpg" media="(min-width: 63.94rem)">
-                    <img src="logga.jpg" alt="företagslogga">
+                    <source srcset="wwwroot/img/logga.jpg" media="(max-width: 63.93rem)">
+                    <source srcset="wwwroot/img/logga-stor.jpg" media="(min-width: 63.94rem)">
+                    <img src="wwwroot/img/logga.jpg" alt="företagslogga">
                 </picture>
 
 
@@ -81,18 +84,51 @@
         </section>
 
     </header>
-    <main>
 
+    <main>
+        <div class="outer-body"></div>
     </main>
-    <footer> 
+
+    <footer> <!-- Christine -->
         <section class="outer-section">
             <div class="inner-div">
                 <div class="content-div">
-
+                    <div class="links-content">
+                        <section class="list-footer-options">
+                            <div>
+                                <p>Sortiment</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="text-content">
+                        <div class="footer-logo">
+                            <img class="footer-logo-img" src="wwwroot/img/footerLogo.png" alt="företagslogga">
+                        </div>
+                        <section class="footer-content">
+                            <p>
+                                Lagerhaus, inredningskedjan från Göteborg erbjuder inspirerande, 
+                                prisvärda och noggrant utvalda fest- och inredningsdetaljer. Genom våra 
+                                ledord "We create Happy Moments" vill Lagerhaus med vårt sortiment bidra 
+                                till ökad glädje i livets alla ögonblick. Vi erbjuder prisvärda och 
+                                smarta produkter för <u>hemmet</u> och <u>festen</u>. 
+                                <u>Inredningsdetaljer</u>, <u>förvaringsprodukter</u>, <u>glas</u>, <u>porslin</u>, <u>presentpåsar</u>, 
+                                <u>inslagningsprodukter</u> och <u>festartiklar</u> - allt som behövs för att skapa 
+                                Happy Moments!
+                            </p>
+                        </section>
+                        <div class="footer-social">
+                            <img class="social-media-icons" src="wwwroot/img/footerSocialMedia.png" alt="loggor till olika sociala medier">
+                        </div>
+                        <section class="cookie-link">
+                            <p>Cookie-inställningar</p>
+                        </section>
+                    </div>
                 </div>
             </div>
         </section>
     </footer>
+
+    <div class="bottom-sidebar"></div>
 
 </body>
 
