@@ -1,0 +1,11 @@
+/*Större eller lika med 1023px*/
+@media (width >= 63.94rem) {
+    /*skiftar inte i höjd i detta läge*/
+}
+
+/*Större eller lika med 1168px*/
+@media (width >= 73rem) {
+    .outer-section {
+        height: 45.789rem;
+    }
+}
