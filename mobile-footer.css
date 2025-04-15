@@ -1,0 +1,18 @@
+.outer-section{
+    background: #fbd7c8;
+    height: 46.21rem;
+    margin-top: 50px; 
+}
+
+.inner-div{
+    height: 41.22rem;
+    width: 36rem;
+    padding: 50px, 12px, 30px, 12px;
+    margin: 0, 0.95rem;
+}
+
+.content-div{
+    height: 16.55rem;
+    width: 36rem;
+    margin-bottom: 30px;
+}
