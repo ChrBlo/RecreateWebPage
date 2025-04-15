@@ -8,26 +8,64 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols" />
     <link rel="stylesheet" href="mobile-header.css">
     <link rel="stylesheet" href="mobile-footer.css">
+    <link rel="stylesheet" href="tablet-header.css">
+    <link rel="stylesheet" href="desktop-header.css">
 
 </head>
 
 <body>
     <header> <!-- Sophia -->
-        <section class="header-first-section">
+        <section class="first-section">
+        <div class="first-section-info-links-top">
+            <a href="#">Våra butiker</a>
             <div></div>
-            <p>Leveranstid 2-5 vardagar -Fri frakt över 399 kr -Fri retur i butik</p>
+            <a href="#"> kontakta oss</a>
+            <div></div>
+            <a href="#">Företag</a>
+        </div>
+        
+        <section class="first-section-info-middle">
+            <div></div>
+            <p>Leveranstid 2-5 vardagar - Fri frakt över 399 kr -Fri retur i butik</p>
             <div></div>
         </section>
+        
+        <div class="first-section-info-links-bottom">
+            <a href="#">Privat</a>
+            <p>|</p>
+            <a href="#">Företag</a>
+            <a href=""">SE / SEK</a>
+        </div>
+    </section>
 
-        <section class="header-second-section">
-            <article class="second-section-left">
-                <span class="material-symbols">
+        <section class="second-section">
+            <div class="left-content">
+                <span class="material-symbols menu-icon-left">
                     menu
                 </span>
-                <a href="#"><img src="logga.jpg" alt="varumärkes logga"></a>
-            </article>
-            <article class="second-section-right">
-                <span class="material-symbols">
+                <div> </div>
+                <picture>
+                    <source srcset="logga.jpg" media="(max-width: 63.93rem)">
+                    <source srcset="logga-stor.jpg" media="(min-width: 63.94rem)">
+                    <img src="logga.jpg" alt="företagslogga">
+                </picture>
+
+
+                <div>
+                    <span class="material-symbols menu-icon-right">
+                        menu
+                    </span>
+                </div>
+
+
+            </div>
+
+            <div>
+                <input class="search-bar search-bar-text" type="text" placeholder="Hej! Vad letar du efter?">
+            </div>
+
+            <div class="menu-icon-size">
+                <span class="material-symbols search-icon">
                     search
                 </span>
                 <span class="material-symbols">
@@ -39,7 +77,7 @@
                 <span class="material-symbols">
                     shopping_bag
                 </span>
-            </article>
+            </div>
         </section>
 
     </header>
