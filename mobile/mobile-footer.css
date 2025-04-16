@@ -41,17 +41,14 @@
     font-size: 1.125rem;
 }
 
-.list-footer-options{
-    border-top: 0.01rem solid #ed6c45;
-    border-bottom: 1px solid #ed6c45;
-}
-
 .footer-option{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: -1px;
     height: 65.188px;
     width: 576px;
     border-top: 1px solid #ed6c45;
@@ -96,6 +93,16 @@
     width: 225px;
     height: auto;
 }
+
+.grow{
+    flex: 1;
+}
+
+#mat-icon-arrow-down {
+    display: flex;
+    font-size: 2.5rem;
+}
+
 
 /* Mindre än 630px */
 @media (width < 39.375rem) {
