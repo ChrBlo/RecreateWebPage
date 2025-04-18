@@ -110,6 +110,12 @@
     font-size: 2.5rem;
 }
 
+.text-up-up-up{
+    background-color: transparent;
+    z-index: 10;
+    justify-content: center;
+}
+
 .button-up-up-up {
     position: absolute;
     top: 0;
@@ -123,17 +129,17 @@
     width: 60px;
     height: 60px;
     color: #003aab;
-    z-index: 10;
+    z-index: 999;
 }
 
-.button-up-up-up .inner-circle {
+/* .button-up-up-up .inner-circle {
     background: #fde7dd;
     border-radius: 50%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .grid-item {
     display: flex;
