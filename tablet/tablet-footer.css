@@ -1,11 +1,37 @@
-/*Större eller lika med 1023px*/
-@media (width >= 63.94rem) {
-    /*skiftar inte i höjd i detta läge*/
-}
-
 /*Större eller lika med 1168px*/
 @media (width >= 73rem) {
     .outer-section {
         height: 45.789rem;
+    }
+
+    .grid-container {
+        grid-template-columns: 443px minmax(140px, 1fr) minmax(140px, 1fr) minmax(158px, 1fr) minmax(167px, 1fr);
+    }
+
+    .grid-item h3{
+        font-size: 1.1rem;
+    }
+
+    .item-1{
+        margin-top: -60px;
+    }
+
+    .item-4{
+        grid-column: 4;
+        grid-row: 1;
+        font-size: 0.9rem;
+    }
+    
+    .item-5 {
+        grid-column: 5;
+        grid-row: 1;
+    }
+
+    .grid-footer-content-narrow{
+        display: none;
+    }
+
+    .grid-footer-content-wide{
+    font-size: 1.125rem;
     }
 }

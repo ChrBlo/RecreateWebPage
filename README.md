@@ -67,7 +67,7 @@ FOOTER
 [X] 768 -> 799 LagerHaus-info med soc.medie-loggor längst ned, footer-headers med synliga underkategorier
 [X] 800 -> 897 LagerHaus-info med soc.medie-loggor till vänster,  footer-headers (2kolumner!) med synliga underkategorier till höger
 [X] 898 -> 1167 samma som steget innan MEN 3 kolumner footer-headers 
-[ ] 1168 -> samma som steget innan MEN 4 kolumner footer-headers
+[X] 1168 -> samma som steget innan MEN 4 kolumner footer-headers
 
 
 Skärmdumper på följande skärmbredder:
