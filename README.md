@@ -66,7 +66,7 @@ FOOTER
 [X] 0 -> 767 Footer lista med footer-headers som dropdowns 
 [X] 768 -> 799 LagerHaus-info med soc.medie-loggor längst ned, footer-headers med synliga underkategorier
 [X] 800 -> 897 LagerHaus-info med soc.medie-loggor till vänster,  footer-headers (2kolumner!) med synliga underkategorier till höger
-[ ] 898 -> 1167 samma som steget innan MEN 3 kolumner footer-headers 
+[X] 898 -> 1167 samma som steget innan MEN 3 kolumner footer-headers 
 [ ] 1168 -> samma som steget innan MEN 4 kolumner footer-headers
 
 
