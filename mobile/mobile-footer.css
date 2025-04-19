@@ -197,7 +197,6 @@
 .share-your-style-lagerhaus{
     color: #003aab;
     font-family: Arial, Helvetica, sans-serif;
-    /* text-align: center; */
     font-size: 1.125rem;
     font-weight: 600;
     margin-bottom: 5px;
@@ -206,9 +205,85 @@
 .share-your-style-text{
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
-    /* text-align: center; */
     font-size: 2rem;
     font-weight: 500;
+}
+
+.others-liked-outer{
+    margin-top: 56px;
+    margin-bottom: 32px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 100%;
+}
+
+.others-liked-text{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.others-liked-grid-container {
+    display: grid;
+    width: 95%;
+    margin: 26px auto 0px auto;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 20px;
+    grid-template-rows: minmax(276.28px, auto);
+    max-width: 1200px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.others-liked-grid-item {
+    width: 100%;
+    height: 100%;
+}
+
+.liked-item-1 {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #ff892f;
+}
+
+.liked-item-2 {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #59ff2f;
+}
+
+.liked-item-3 {
+    grid-column: 3;
+    grid-row: 1;
+    background-color: #2f90ff;
+}
+
+.liked-item-4 {
+    display:none;
+}
+
+.others-liked-grid-item picture {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.others-liked-grid-item img {
+    display: block;
+  width: 100%;
+  max-width: 100%;
+  /* height: auto; */
+  object-fit: cover;
+}
+
+.others-liked-product-info {
+  display: block;
+  padding-top: 8px;
 }
 
 /* Mindre än 630px */
