@@ -233,11 +233,12 @@
     width: 95%;
     margin: 26px auto 0px auto;
     gap: 10px;
-    grid-template-columns: 1fr 1fr 20px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: minmax(276.28px, auto);
     max-width: 1200px;
     position: relative;
     overflow-x: hidden;
+    overflow-y: visible;
 }
 
 .others-liked-grid-item {
@@ -248,19 +249,17 @@
 .liked-item-1 {
     grid-column: 1;
     grid-row: 1;
-    background-color: #ff892f;
+    /* background-color: #ff892f; */
 }
 
 .liked-item-2 {
     grid-column: 2;
     grid-row: 1;
-    background-color: #59ff2f;
+    /* background-color: #59ff2f; */
 }
 
 .liked-item-3 {
-    grid-column: 3;
-    grid-row: 1;
-    background-color: #2f90ff;
+    display:none;
 }
 
 .liked-item-4 {
@@ -268,22 +267,82 @@
 }
 
 .others-liked-grid-item picture {
-  display: block;
-  width: 100%;
-  height: auto;
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .others-liked-grid-item img {
     display: block;
-  width: 100%;
-  max-width: 100%;
-  /* height: auto; */
-  object-fit: cover;
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 .others-liked-product-info {
-  display: block;
-  padding-top: 8px;
+    display: block;
+    padding-top: 8px;
+}
+.others-liked-product-info p{
+    color:#000000;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.product-name{
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+#others-liked-measurements{
+    color:#505050;
+}
+
+.others-liked-price{
+    font-weight: bold;
+}
+
+.others-liked-img-section {
+    position: relative;
+    width: 100%;
+}
+
+.others-liked-img-section picture {
+    display: block;
+    width: 100%;
+}
+
+.others-liked-img-section img {
+    width: 100%;
+    display: block;
+}
+
+.others-liked-img-section .material-symbols {
+    position: absolute;
+    top: 10px;
+    right: 4px;
+    z-index: 2;
+    background-color: #f1edea; /* optional: semi-transparent background */
+    padding: 5px; /* optional: adds some space around the icon */
+}
+
+.product-info-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.others-liked-price {
+    margin: 0;
+}
+
+.material-symbols {
+    margin-bottom: 5px;
+    margin-right: 7px;
 }
 
 /* Mindre än 630px */
