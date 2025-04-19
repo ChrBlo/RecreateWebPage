@@ -34,4 +34,14 @@
     .grid-footer-content-wide{
     font-size: 1.125rem;
     }
+
+    .others-liked-grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .liked-item-4 {
+        grid-column: 4;
+        grid-row: 1;
+        display: block;
+    }
 }
