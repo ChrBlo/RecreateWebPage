@@ -1,0 +1,10 @@
+/*Större eller lika med 1280px*/
+@media (width >= 80rem){
+    .others-liked-button-left {
+        left: -30px;
+    }
+
+    .others-liked-button-right {
+        right: -30px;
+    }
+}
