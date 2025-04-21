@@ -5,7 +5,6 @@
 body {
     margin: 0;
     background: #fffef8;
-
 }
 
 header {
@@ -17,6 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    z-index: 9999;
 }
 
 .first-section {

@@ -1,0 +1,12 @@
+/*Större eller lika med 1023px*/
+@media (width >= 63.94rem) {
+    .others-liked-grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .liked-item-4 {
+        grid-column: 4;
+        grid-row: 1;
+        display: block;
+    }
+}
