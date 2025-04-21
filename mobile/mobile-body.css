@@ -214,6 +214,10 @@
     padding-right: 0;
 }
 
+.body-product-topmost-info{
+    margin: 1rem;
+}
+
 .body-product-topmost-info p {
     font-weight: 500;
     font-size: 1.125rem;
