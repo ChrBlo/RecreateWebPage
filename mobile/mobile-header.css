@@ -19,14 +19,16 @@ header {
     z-index: 9999;
 }
 
-.mid-border{
+.mid-border {
     display: none;
 }
 
 .first-section {
+    position: sticky;
     margin: 0;
     padding-left: 13rem;
-    padding-right: 13rem;   
+    padding-right: 13rem;
+    max-height: 2.5rem;
     display: flex;
     background-color: #003aab;
     color: white;
@@ -43,11 +45,18 @@ header {
     display: flex;
     justify-content: space-evenly;
     flex: 1;
-    font-size: 0.7rem;
-    font-family: "National Park", sans-serif;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
-.first-section-info-links-right {   
+.first-section-info-middle p{
+    font-size: 0.7rem;
+    color: white;
+    font-family: "National Park", sans-serif;
+
+}
+
+.first-section-info-links-right {
     display: none;
 }
 
@@ -86,7 +95,7 @@ header {
 
 
 @media (width >=39.375rem) {
-    .first-section-info-middle {
+    .first-section-info-middle p{
         font-size: 0.9rem;
     }
 }
