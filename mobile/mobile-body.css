@@ -11,14 +11,15 @@
     margin-right: 7px;
 }
 
-.black-separating-border{
+.black-separating-border {
     width: 95%;
     border-top: 2px solid #000000;
     margin-left: auto;
     margin-right: auto;
 }
 
-.others-liked-button-left, .others-liked-button-right {
+.others-liked-button-left,
+.others-liked-button-right {
     position: absolute;
     top: 40%;
     transform: translateY(-50%);
@@ -35,8 +36,8 @@
 
 .others-liked-button-left .material-symbols,
 .others-liked-button-right .material-symbols {
-    margin: 0;      
-    padding: 0;     
+    margin: 0;
+    padding: 0;
 }
 
 .others-liked-button-left {
@@ -47,7 +48,7 @@
     right: -10px;
 }
 
-.others-liked-outer{
+.others-liked-outer {
     margin-top: 56px;
     margin-bottom: 32px;
     display: flex;
@@ -58,10 +59,10 @@
     text-align: center;
     width: 100%;
     position: relative;
-    overflow: visible; 
+    overflow: visible;
 }
 
-.others-liked-text{
+.others-liked-text {
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -80,7 +81,7 @@
     overflow: visible;
 }
 
-.body-grid-container{
+.body-grid-container {
     display: grid;
     width: 95%;
     margin-left: auto;
@@ -92,11 +93,11 @@
     position: relative;
 }
 
-.body-grid-item-1{
+.body-grid-item-1 {
     background-color: rgb(201, 255, 148);
 }
 
-.body-grid-item-2{
+.body-grid-item-2 {
     background-color: rgb(240, 178, 255);
 }
 
@@ -123,41 +124,41 @@
     padding-top: 8px;
 }
 
-.others-liked-product-info p{
-    color:#000000;
+.others-liked-product-info p {
+    color: #000000;
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
 
-.product-name{
+.product-name {
     font-size: 1.125rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
 
-.online-only-infobox{
+.online-only-infobox {
     margin: 1.5rem 0 0 1rem;
 }
 
-.online-only{
+.online-only {
     position: sticky;
     padding: 0.2rem 0.5rem 0.2rem 0.7rem;
     height: 1rem;
     width: 100%;
-    border-radius: 0 0.7rem 0.7rem 0.7rem;    
+    border-radius: 0 0.7rem 0.7rem 0.7rem;
     background: white;
     color: black;
     font-size: large;
-    font-family: "Special Gothic", sans-serif;   
+    font-family: "Special Gothic", sans-serif;
 }
 
-#others-liked-measurements{
-    color:#505050;
+#others-liked-measurements {
+    color: #505050;
 }
 
-.others-liked-price{
+.others-liked-price {
     font-weight: bold;
 }
 
@@ -196,13 +197,13 @@
     margin: 0;
 }
 
-.body-grid-product-information{
+.body-grid-product-information {
     padding-top: 30px;
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.product-detail{
+.product-detail {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -234,41 +235,71 @@
 
 .product-name-and-favourite-heart {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 
-#measurements{
-    color:#505050;
+#measurements {
+    color: #505050;
     font-size: 1rem;
 }
 
-.add-to-cart-section{
+.add-to-cart-section {
     display: flex;
+    justify-content: space-evenly;
     flex-direction: row;
+    flex-grow: 1;
 }
 
-.add-to-cart-btn{
+.quantity-selector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background: white;
+    border: 1px solid #003aab;
+    border-radius: 0.3rem;
+    width: 7rem;
+    font-size: 1.5rem;
+}
+
+.quantity-selector button {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    padding: 0 0.5rem;
+    cursor: pointer;
+    color: #003aab;
+    opacity: 80%;
+}
+
+.quantity-selector .number {
+    font-weight: bold;
+    margin: 0 0.5rem;
+}   
+
+
+.add-to-cart-btn {
     background: #003aab;
     color: white;
-    width: 29rem;
+    width: 15.5rem;
     height: 3.5rem;
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
     font-size: 1.2rem;
-    font-family: "Special Gothic", sans-serif;  
+    font-family: "Special Gothic", sans-serif;
     font-weight: bold;
     align-items: stretch;
 }
 
-.add-to-cart-btn:hover{
+.add-to-cart-btn:hover {
     cursor: pointer;
     background: #0c3f78;
 }
 
 .product-detail .material-symbols {
-    margin: 0;      
-    padding: 0;     
+    margin: 0;
+    padding: 0;
 }
 
 .delivery-info-list {
@@ -305,42 +336,46 @@ ul.in-stock-online-list li {
 
 ul.in-stock-online-list li::before {
     content: "●";
-    position:absolute;
+    position: absolute;
     left: 0;
     color: #008080;
     font-size: 25px;
 }
 
 #product-details-dropdow-arrow-down {
-    font-size: 1.7rem; 
+    font-size: 1.7rem;
 }
 
-.inner-img-1{
+.inner-img-1 {
     grid-area: img1;
     background-color: aquamarine;
 }
-.inner-img-2{
+
+.inner-img-2 {
     grid-area: img2;
     background-color: rgb(236, 255, 127);
 }
-.inner-img-3{
+
+.inner-img-3 {
     grid-area: img3;
     background-color: rgb(131, 255, 127);
 }
-.inner-img-4{
+
+.inner-img-4 {
     grid-area: emptyspace;
     background-color: rgb(255, 178, 127);
 }
-.inner-img-5{
+
+.inner-img-5 {
     grid-area: largeimg;
     background-color: rgb(255, 127, 187);
 }
 
-.body-inner-img-grid{
+.body-inner-img-grid {
     display: grid;
     grid-template-columns: 60px auto;
     grid-template-rows: minmax(55px, auto) minmax(55px, auto) minmax(55px, auto) 20%;
-    grid-template-areas: 
+    grid-template-areas:
         "img1 largeimg"
         "img2 largeimg"
         "img3 largeimg"
@@ -348,7 +383,7 @@ ul.in-stock-online-list li::before {
 }
 
 /* Större eller lika med 768 px */
-@media (width >= 48rem) and (width < 50rem) {
+@media (width >=48rem) and (width < 50rem) {
     .others-liked-grid-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -359,12 +394,12 @@ ul.in-stock-online-list li::before {
     }
 
     .liked-item-4 {
-        display:none;
+        display: none;
     }
-} 
+}
 
 /* Större eller lika med 800 px */
-@media (width >= 50rem) {
+@media (width >=50rem) {
     .others-liked-grid-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -375,21 +410,21 @@ ul.in-stock-online-list li::before {
     }
 
     .liked-item-4 {
-        display:none;
+        display: none;
     }
 
-    .body-grid-container{
+    .body-grid-container {
         grid-template-columns: 1fr 394px;
         grid-template-rows: 664px;
     }
 
-    .body-grid-image-collage{
+    .body-grid-image-collage {
         display: none;
     }
-}  
+}
 
 @media (width < 50rem) {
-    .body-inner-img-grid{
+    .body-inner-img-grid {
         display: none;
     }
 }
