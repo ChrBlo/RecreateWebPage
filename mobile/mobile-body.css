@@ -179,27 +179,13 @@
 }
 
 .zoom-icon-container{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    background: white;
-    border-radius: 50%;
-    width: 3.5rem;
-    height: 3.5rem;
-    background-color: rgba(255, 255, 255, 0.349);
-    cursor: pointer;
-    position: absolute;
-    bottom: 1rem;
-    left: 26rem;
+    display: none;
+    
 }
 
 .zoom-icon{
-    display: flex;
-    padding-left: 1rem;
-    padding-top: 0.4rem;
-    justify-self: center;
-    align-items: center;
-    color: #003aab;
+    display: none;
+    
 }
 
 #others-liked-measurements {
@@ -486,6 +472,30 @@ ul.in-stock-online-list li::before {
 
     .body-grid-image-collage {
         display: none;
+    }
+
+    .zoom-icon-container{
+        display: flex;
+        position: absolute;
+
+        
+        background: white;
+        border-radius: 50%;
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: rgba(255, 255, 255, 0.349);
+        cursor: pointer;
+        bottom: 1rem;
+        right: 26rem;
+    }
+    
+    .zoom-icon{
+        display: flex;
+        padding-left: 1rem;
+        padding-top: 0.4rem;
+        justify-self: center;
+        align-items: center;
+        color: #003aab;
     }
 }
 
