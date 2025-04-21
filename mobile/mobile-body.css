@@ -154,6 +154,7 @@
     font-family: "Special Gothic", sans-serif;
 }
 
+
 #others-liked-measurements {
     color: #505050;
 }
@@ -214,7 +215,7 @@
     padding-right: 0;
 }
 
-.body-product-topmost-info{
+.body-product-topmost-info {
     margin: 1rem;
 }
 
@@ -260,7 +261,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     background: white;
     border: 1px solid #003aab;
     border-radius: 0.3rem;
@@ -281,7 +282,7 @@
 .quantity-selector .number {
     font-weight: bold;
     margin: 0 0.5rem;
-}   
+}
 
 
 .add-to-cart-btn {
@@ -386,6 +387,19 @@ ul.in-stock-online-list li::before {
         "emptyspace largeimg";
 }
 
+.product-info-box {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background: teal;
+    color: white;
+    font-family: "Special Gothic", sans-serif;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+
+}
+
 /* Större eller lika med 768 px */
 @media (width >=48rem) and (width < 50rem) {
     .others-liked-grid-container {
@@ -396,6 +410,7 @@ ul.in-stock-online-list li::before {
         grid-column: 3;
         grid-row: 1;
     }
+
 
     .liked-item-4 {
         display: none;
