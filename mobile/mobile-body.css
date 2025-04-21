@@ -1,4 +1,4 @@
-.breadcrumbs{
+.breadcrumbs {
     display: flex;
     position: relative;
     justify-content: flex-start;
@@ -8,16 +8,17 @@
     color: black;
 }
 
-.breadcrumbs a{
+.breadcrumbs a {
     opacity: 50%;
     padding: 0.4rem;
     text-decoration: none;
 }
 
-.breadcrumbs p{
+.breadcrumbs p {
     opacity: 50%;
 }
-.breadcrumbs span{
+
+.breadcrumbs span {
     padding: 0.4rem;
 }
 
@@ -177,6 +178,29 @@
     font-family: "Special Gothic", sans-serif;
 }
 
+.zoom-icon-container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background: white;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgba(255, 255, 255, 0.349);
+    cursor: pointer;
+    position: absolute;
+    bottom: 1rem;
+    left: 26rem;
+}
+
+.zoom-icon{
+    display: flex;
+    padding-left: 1rem;
+    padding-top: 0.4rem;
+    justify-self: center;
+    align-items: center;
+    color: #003aab;
+}
 
 #others-liked-measurements {
     color: #505050;
