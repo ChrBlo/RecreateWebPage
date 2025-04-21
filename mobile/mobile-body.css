@@ -178,14 +178,12 @@
     font-family: "Special Gothic", sans-serif;
 }
 
-.zoom-icon-container{
+.zoom-icon-container {
     display: none;
-    
 }
 
-.zoom-icon{
+.zoom-icon {
     display: none;
-    
 }
 
 #others-liked-measurements {
@@ -430,8 +428,26 @@ ul.in-stock-online-list li::before {
     font-size: 0.9rem;
     padding: 0.3rem;
     border-radius: 0.3rem;
-
 }
+
+.customer-support-container {
+    position: fixed;
+    bottom: 4rem;
+    left: 0.31rem;
+    z-index: 1000;
+}
+
+.customer-support-icon {
+    padding: 1rem 1rem;
+    display: inline-flex;
+    background: #fde7dd;
+    color: #444343;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Större eller lika med 768 px */
 @media (width >=48rem) and (width < 50rem) {
@@ -474,11 +490,11 @@ ul.in-stock-online-list li::before {
         display: none;
     }
 
-    .zoom-icon-container{
+
+
+    .zoom-icon-container {
         display: flex;
         position: absolute;
-
-        
         background: white;
         border-radius: 50%;
         width: 3.5rem;
@@ -488,8 +504,8 @@ ul.in-stock-online-list li::before {
         bottom: 1rem;
         right: 26rem;
     }
-    
-    .zoom-icon{
+
+    .zoom-icon {
         display: flex;
         padding-left: 1rem;
         padding-top: 0.4rem;
@@ -497,6 +513,7 @@ ul.in-stock-online-list li::before {
         align-items: center;
         color: #003aab;
     }
+
 }
 
 @media (width < 50rem) {
