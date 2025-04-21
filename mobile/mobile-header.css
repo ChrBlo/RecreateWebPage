@@ -19,10 +19,14 @@ header {
     z-index: 9999;
 }
 
+.mid-border{
+    display: none;
+}
+
 .first-section {
     margin: 0;
     padding-left: 13rem;
-    padding-right: 13rem;
+    padding-right: 13rem;   
     display: flex;
     background-color: #003aab;
     color: white;
