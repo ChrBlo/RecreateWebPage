@@ -244,6 +244,28 @@
     font-size: 1rem;
 }
 
+.add-to-cart-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.add-to-cart-btn{
+    background: #003aab;
+    color: white;
+    width: 29rem;
+    height: 3.5rem;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+    font-size: 1.2rem;
+    font-family: "Special Gothic", sans-serif;  
+    font-weight: bold;
+    align-items: stretch;
+}
+
+.add-to-cart-btn:hover{
+    cursor: pointer;
+    background: #0c3f78;
+}
+
 .product-detail .material-symbols {
     margin: 0;      
     padding: 0;     
