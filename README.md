@@ -51,16 +51,16 @@ https://www.lagerhaus.se/utomhus-1/balkong/hangmatta-kramvit
 
 HEADER
 [X] 0 -> 630 Mindre text i övre blå header, liten vit "endast online" 
-[ ] 1023 -> 1279 Stort sökfält försvinner och övre header är blå, vit "endast online" blir större
-[ ] 1280 -> Bredaste med fler ikoner i header, vit övre header och stort sökfält
+[X] 1023 -> 1279 Stort sökfält försvinner och övre header är blå, vit "endast online" blir större
+[X] 1280 -> Bredaste med fler ikoner i header, vit övre header och stort sökfält
 
 BODY (ÖVRE)
-[ ] 630 -> 799 EN Stor produktbild, liten breadcrumb, "lägg i varukorg" som aside i botten av sidan, Matcha med ligger under produktinfo, i kolumn med prod-bilder
-[ ] 800 -> Fler produktbilder, större breadcrumb, "lägg i varukorg" mitt i produktinformationen
+[X] 630 -> 799 EN Stor produktbild, liten breadcrumb, "lägg i varukorg" som aside i botten av sidan, Matcha med ligger under produktinfo, i kolumn med prod-bilder
+[X] 800 -> Fler produktbilder, större breadcrumb, "lägg i varukorg" mitt i produktinformationen
 
 BODY (UNDRE)
 "Andra gillar"-karusell 
-[ ] Skalar med sidan men går från 2-bilder till 3 vid 768 (printscreena båda karusell-scenarion!!)
+[X] Skalar med sidan men går från 2-bilder till 3 vid 768 (printscreena båda karusell-scenarion!!)
 
 FOOTER
 [X] 0 -> 767 Footer lista med footer-headers som dropdowns 

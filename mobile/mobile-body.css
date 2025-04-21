@@ -1,3 +1,27 @@
+.breadcrumbs {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: "Special Gothic", sans-serif;
+    font-size: 1rem;
+    color: black;
+}
+
+.breadcrumbs a {
+    opacity: 50%;
+    padding: 0.4rem;
+    text-decoration: none;
+}
+
+.breadcrumbs p {
+    opacity: 50%;
+}
+
+.breadcrumbs span {
+    padding: 0.4rem;
+}
+
 .main-outer-body {
     margin: 0;
     margin-top: 129px;
@@ -25,7 +49,8 @@
     max-width: 1200px;
 }
 
-.others-liked-button-left, .others-liked-button-right {
+.others-liked-button-left,
+.others-liked-button-right {
     position: absolute;
     top: 40%;
     transform: translateY(-50%);
@@ -53,7 +78,7 @@
     right: -10px;
 }
 
-.others-liked-outer{
+.others-liked-outer {
     margin-top: 56px;
     margin-bottom: 32px;
     display: flex;
@@ -64,10 +89,10 @@
     text-align: center;
     width: 100%;
     position: relative;
-    overflow: visible; 
+    overflow: visible;
 }
 
-.others-liked-text{
+.others-liked-text {
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -84,7 +109,7 @@
     overflow: visible;
 }
 
-.body-grid-container{
+.body-grid-container {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr;
@@ -130,15 +155,15 @@
     padding-top: 8px;
 }
 
-.others-liked-product-info p{
-    color:#000000;
+.others-liked-product-info p {
+    color: #000000;
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
 }
 
-.product-name{
+.product-name {
     font-size: 1.125rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
@@ -148,7 +173,35 @@
     color:#6a695e;
 }
 
-.others-liked-price{
+.online-only-infobox {
+    margin: 1.5rem 0 0 1rem;
+}
+
+.online-only {
+    position: sticky;
+    padding: 0.2rem 0.5rem 0.2rem 0.7rem;
+    height: 1rem;
+    width: 100%;
+    border-radius: 0 0.7rem 0.7rem 0.7rem;
+    background: white;
+    color: black;
+    font-size: large;
+    font-family: "Special Gothic", sans-serif;
+}
+
+.zoom-icon-container {
+    display: none;
+}
+
+.zoom-icon {
+    display: none;
+}
+
+#others-liked-measurements {
+    color: #505050;
+}
+
+.others-liked-price {
     font-weight: bold;
 }
 
@@ -197,7 +250,7 @@
     justify-self: center;
 }
 
-.product-detail{
+.product-detail {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -208,9 +261,13 @@
     padding-right: 0;
 }
 
+.body-product-topmost-info {
+    margin: 1rem;
+}
+
 .body-product-topmost-info p {
     font-weight: 500;
-    font-size: 1.125rem;
+    font-size: 2rem;
     line-height: 0.2rem;
 }
 
@@ -229,7 +286,7 @@
 
 .product-name-and-favourite-heart {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
 }
@@ -239,9 +296,61 @@
     font-size: 1rem;
 }
 
+.add-to-cart-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.quantity-selector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid #003aab;
+    border-radius: 0.3rem;
+    width: 7rem;
+    font-size: 1.5rem;
+}
+
+.quantity-selector button {
+    background: none;
+    border: none;
+    font-size: 1.1rem;
+    padding: 0 0.5rem;
+    cursor: pointer;
+    color: #003aab;
+    opacity: 80%;
+}
+
+.quantity-selector .number {
+    font-weight: bold;
+    margin: 0 0.5rem;
+}
+
+
+.add-to-cart-btn {
+    background: #003aab;
+    color: white;
+    width: 15.5rem;
+    height: 3.5rem;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+    font-size: 1.2rem;
+    font-family: "Special Gothic", sans-serif;
+    font-weight: bold;
+    align-items: stretch;
+}
+
+.add-to-cart-btn:hover {
+    cursor: pointer;
+    background: #0c3f78;
+}
+
 .product-detail .material-symbols {
-    margin: 0;      
-    padding: 0;     
+    margin: 0;
+    padding: 0;
 }
 
 .delivery-info-list {
@@ -278,14 +387,14 @@ ul.in-stock-online-list li {
 
 ul.in-stock-online-list li::before {
     content: "●";
-    position:absolute;
+    position: absolute;
     left: 0;
     color: #008080;
     font-size: 25px;
 }
 
 #product-details-dropdow-arrow-down {
-    font-size: 1.7rem; 
+    font-size: 1.7rem;
 }
 
 .body-grid-image-large {
@@ -378,7 +487,6 @@ ul.in-stock-online-list li::before {
     transform: translate(-50%, -50%);
 }
 
-
 .body-inner-img-grid{
     display: grid;
     gap: 20px;
@@ -465,8 +573,39 @@ ul.in-stock-online-list li::before {
     padding: 0;     
 }
 
+.product-info-box {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background: teal;
+    color: white;
+    font-family: "Special Gothic", sans-serif;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.customer-support-container {
+    position: fixed;
+    bottom: 4rem;
+    left: 0.31rem;
+    z-index: 1000;
+}
+
+.customer-support-icon {
+    padding: 1rem 1rem;
+    display: inline-flex;
+    background: #fde7dd;
+    color: #444343;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
 /* Större eller lika med 768 px */
-@media (width >= 48rem) and (width < 50rem) {
+@media (width >=48rem) and (width < 50rem) {
     .others-liked-grid-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -476,13 +615,14 @@ ul.in-stock-online-list li::before {
         grid-row: 1;
     }
 
+
     .liked-item-4 {
-        display:none;
+        display: none;
     }
-} 
+}
 
 /* Större eller lika med 800 px */
-@media (width >= 50rem) {
+@media (width >=50rem) {
     .others-liked-grid-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -493,7 +633,7 @@ ul.in-stock-online-list li::before {
     }
 
     .liked-item-4 {
-        display:none;
+        display: none;
     }
 
     .body-grid-container{
@@ -534,10 +674,33 @@ ul.in-stock-online-list li::before {
         height: max(55px, calc(55px + (100vw - 800px) * 0.3));
         max-height: 155px;
     }
-}  
+
+    .zoom-icon-container {
+        display: flex;
+        position: absolute;
+        background: white;
+        border-radius: 50%;
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: rgba(255, 255, 255, 0.349);
+        cursor: pointer;
+        bottom: 1rem;
+        right: 26rem;
+    }
+
+    .zoom-icon {
+        display: flex;
+        padding-left: 1rem;
+        padding-top: 0.4rem;
+        justify-self: center;
+        align-items: center;
+        color: #003aab;
+    }
+
+}
 
 @media (width < 50rem) {
-    .body-inner-img-grid{
+    .body-inner-img-grid {
         display: none;
     }
 }
