@@ -137,6 +137,22 @@
     margin-bottom: 0.5rem;
 }
 
+.online-only-infobox{
+    margin: 1.5rem 0 0 1rem;
+}
+
+.online-only{
+    position: sticky;
+    padding: 0.2rem 0.5rem 0.2rem 0.7rem;
+    height: 1rem;
+    width: 100%;
+    border-radius: 0 0.7rem 0.7rem 0.7rem;    
+    background: white;
+    color: black;
+    font-size: large;
+    font-family: "Special Gothic", sans-serif;   
+}
+
 #others-liked-measurements{
     color:#505050;
 }

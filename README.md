@@ -51,8 +51,8 @@ https://www.lagerhaus.se/utomhus-1/balkong/hangmatta-kramvit
 
 HEADER
 [X] 0 -> 630 Mindre text i övre blå header, liten vit "endast online" 
-[ ] 1023 -> 1279 Stort sökfält försvinner och övre header är blå, vit "endast online" blir större
-[ ] 1280 -> Bredaste med fler ikoner i header, vit övre header och stort sökfält
+[X] 1023 -> 1279 Stort sökfält försvinner och övre header är blå, vit "endast online" blir större
+[X] 1280 -> Bredaste med fler ikoner i header, vit övre header och stort sökfält
 
 BODY (ÖVRE)
 [ ] 630 -> 799 EN Stor produktbild, liten breadcrumb, "lägg i varukorg" som aside i botten av sidan, Matcha med ligger under produktinfo, i kolumn med prod-bilder
