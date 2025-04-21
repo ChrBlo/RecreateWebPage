@@ -277,6 +277,38 @@ ul.in-stock-online-list li::before {
     font-size: 1.7rem; 
 }
 
+.inner-img-1{
+    grid-area: img1;
+    background-color: aquamarine;
+}
+.inner-img-2{
+    grid-area: img2;
+    background-color: rgb(236, 255, 127);
+}
+.inner-img-3{
+    grid-area: img3;
+    background-color: rgb(131, 255, 127);
+}
+.inner-img-4{
+    grid-area: emptyspace;
+    background-color: rgb(255, 178, 127);
+}
+.inner-img-5{
+    grid-area: largeimg;
+    background-color: rgb(255, 127, 187);
+}
+
+.body-inner-img-grid{
+    display: grid;
+    grid-template-columns: 60px auto;
+    grid-template-rows: minmax(55px, auto) minmax(55px, auto) minmax(55px, auto) 20%;
+    grid-template-areas: 
+        "img1 largeimg"
+        "img2 largeimg"
+        "img3 largeimg"
+        "emptyspace largeimg";
+}
+
 /* Större eller lika med 768 px */
 @media (width >= 48rem) and (width < 50rem) {
     .others-liked-grid-container {
@@ -312,4 +344,14 @@ ul.in-stock-online-list li::before {
         grid-template-columns: 1fr 394px;
         grid-template-rows: 664px;
     }
+
+    .body-grid-image-collage{
+        display: none;
+    }
 }  
+
+@media (width < 50rem) {
+    .body-inner-img-grid{
+        display: none;
+    }
+}
