@@ -38,6 +38,7 @@
 
 .black-separating-border{
     border-top: 2px solid #000000;
+    opacity: 20%;
 }
 
 .body-grid-container,
