@@ -1,5 +1,4 @@
 ## Inlämningsuppgift 1 - Återskapa en hemsida
-
 Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
 * Sophia Wennersten
 * Christine Blomstrand
@@ -8,47 +7,14 @@ Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
 https://www.lagerhaus.se/utomhus-1/balkong/hangmatta-kramvit
 
 ## Avgränsningar
-- Body-sektionen "Liknande produkter" (eftersom identisk sektion "Andra gillade också" kommer återskapas).
+[X] Body-sektionen "Liknande produkter" (eftersom identisk sektion "Andra gillade också" kommer återskapas).
+[X] Blå pil-knappar
+[X] Chatt-knappen
 - Bilder "utanför skärm" för att indikera bildkaruseller
-- Javascript Interaktivitet, så som:
-    - Blå pil-knappar
-    - Bildkaruseller
-    - Fold-outs/Fold-downs
-    - Chatt-knappen
-
-
-## TO DO:
-
-## Header
-- [ ] 1.
-- [ ] 2.
-
-## Body
-- [ ] 1.
-- [ ] 2.
-
-## Footer
-- [ ] 1.
-- [ ] 2.
-
-## Övrigt
-
-- [ ] Grafisk profil - CB
-- Backgrund- #fffef8
-- Textfärg - #2e2424;
-- Blå i header - blue-dark: #003aab
-- Blå knappar - blue-dark: #003aab
-- Blå knappar:hoover - blue-dark-hover: #026; 
-- Laxrosa pastell i footer: footer-background: #fbd7c8
-- "orange" streck mellan dropdowns i minsta footer: #ed6c45;
-- Blå text i footer: #003da6;
-- Fontfamily: "Atyp", "arial", sans-serif;
-
-- [X] Lägg upp skärmdumpar - CB
+- Interaktiva saker
 
 
 ## Responsivitet
-
 HEADER
 [X] 0 -> 630 Mindre text i övre blå header, liten vit "endast online" 
 [X] 1023 -> 1279 Stort sökfält försvinner och övre header är blå, vit "endast online" blir större
