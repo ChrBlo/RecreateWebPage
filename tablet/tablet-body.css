@@ -1,4 +1,3 @@
-/*Större eller lika med 1023px*/
 @media (width >= 63.94rem) {
     .others-liked-grid-container {
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -9,6 +8,10 @@
         grid-row: 1;
         display: block;
     }
+}
 
-    
+@media (width >= 66rem){
+    .zoom-icon-container {
+        bottom: 4rem;
+    }
 }
