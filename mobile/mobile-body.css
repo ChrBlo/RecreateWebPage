@@ -591,6 +591,8 @@ ul.in-stock-online-list li::before {
     font-weight: bold;
     border-radius: 0.5rem;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    
 }
 
 
