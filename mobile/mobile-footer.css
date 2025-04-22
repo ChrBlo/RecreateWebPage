@@ -185,6 +185,7 @@
 
 .mobile-add-to-cart-section{
     display: flex;
+    position: fixed;
     flex-direction: row;
     width: 100%;
     bottom: 0;
