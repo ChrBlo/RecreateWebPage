@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 0.2rem;
+    margin-bottom: 1rem;
 }
 
 .inner-div{
@@ -192,8 +192,7 @@
     left: 0;
     background: white;
     color: black;
-    padding: 0.7rem;
-
+    padding: 0.3rem;
 }
 
 .mobile-quantity-selector {
@@ -205,15 +204,15 @@
     background: white;
     border: 1px solid #003aab;
     border-radius: 0.3rem;
-    width: 7rem;
-    font-size: 1.5rem;
+    width: 5.5rem;
+    font-size: 1.3rem;
 }
 
 .mobile-quantity-selector button {
     background: none;
     border: none;
     font-size: 1.1rem;
-    padding: 0 0.5rem;
+    padding: 0 0.3rem;
     cursor: pointer;
     color: #003aab;
     opacity: 80%;
@@ -229,7 +228,7 @@
     color: white;
     border: none;
     width: 15.5rem;
-    height: 3.5rem;
+    height: 3.1rem;
     border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
     font-size: 1.2rem;
     font-family: "Special Gothic", sans-serif;
