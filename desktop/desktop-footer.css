@@ -1,10 +1,5 @@
 /*Stärre eller lika med 1280px*/
 @media (width >= 80rem){
-    .header-margin{
-        margin-left: 11rem;
-        margin-right: 11rem;
-    }
-
     .second-section-desktop-menu{
         display: flex;
         flex-direction: row;
