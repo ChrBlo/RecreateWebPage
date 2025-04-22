@@ -608,6 +608,7 @@ ul.in-stock-online-list li::before {
 
 .local-stock:hover{
     color: #fc6454;
+    cursor: pointer;
 }
 
 
