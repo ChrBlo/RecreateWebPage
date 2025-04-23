@@ -67,7 +67,7 @@
         font-size: 1rem;
     }
 
-    .second-section-info-links a:hover {
+    .second-section-info-links p:hover {
         text-decoration: underline;
         color: #fc6454;
         cursor: pointer;
