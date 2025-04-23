@@ -6,12 +6,12 @@ Obligatorisk inlämningsuppgift i par för **BY-SUVNET WEBBUTVECKLING** av:
 ## Webbsida att återskapa
 https://www.lagerhaus.se/utomhus-1/balkong/hangmatta-kramvit
 
-## Avgränsningar
-[X] Body-sektionen "Liknande produkter" (eftersom identisk sektion "Andra gillade också" kommer återskapas).
+## Avgränsningar (men vi gjorde vissa ändå!)
+[X] Body-sektionen "Liknande produkter" (eftersom den är identisk sektion "Andra gillade också").
 [X] Blå pil-knappar
 [X] Chatt-knappen
 - Bilder "utanför skärm" för att indikera bildkaruseller
-- Interaktiva saker
+- Interaktiva element så som knappar, bildkaruseller behöver inte vara interaktiva
 
 
 ## Responsivitet
@@ -36,7 +36,7 @@ FOOTER
 [X] 1168 -> samma som steget innan MEN 4 kolumner footer-headers
 
 
-Skärmdumper på följande skärmbredder:
+## Skärmdumper på följande skärmbredder från originalsidan:
 630 - 39.38 rem
 768 - 48 rem
 800 - 50 rem
@@ -44,3 +44,29 @@ Skärmdumper på följande skärmbredder:
 1023 - 63.94 rem
 1168 - 73 rem
 1280 - 80 rem
+
+
+## Uppgiftskrav från David
+
+Krav för väl godkänt:
+[X] 1. Din projektmapp innehåller minst en HTML fil och en CSS fil samt en README.md
+[X] 2. I README.md filen ska det tydligt framgå vilken sida du har valt att återskapa och
+eventuella avgränsningar du har valt att göra och varför, en länk till originalhemsidan
+- samt ditt namn.
+[X] 3. Git och Github har använts (repot ska vara publikt så jag kommer åt det)
+[X] 4. Minst en skärmdump på orginalhemsidans utseende skall finns i er projektmapp
+[X] 5. Elementen på sidan skall vara såpass responsiva att de stannar kvar i bild
+[X] 6. Färger, storlekar och avstånd skall vara snarlika orignalhemsidans
+[X] 7. Uppgiften skall vara inlämnad i tid! (projektmappen zippas ihop och lämnas in i
+läroplattformen som grupp)
+
+Krav för väl godkänt:
+[X] 1. Kraven för godkänt är uppfyllda
+[X] 2. Elementen på sidan skall vara fullt responsiva - alltså matcha orginalhemsidans
+responsivitet
+[X] 3. Det ska finnas flera skärmdumpar på orginalhemsidans utseende för olika
+skärmstorlekar - minst en för mobil, en för tablet, och en för desktop.
+[X] 4. Färger, storlekar och avstånd skall matcha orignalhemsidans
+[X] 5. Ett ikonset (css fil från FontAwesome eller MaterialUI) ska laddas in i head taggen,
+ikoner från filen skall sedan användas på minst ett ställe i html-koden.
+[ ] 6. Koden skall vara logiskt strukturerad med tydliga kommentarer för dess uppbyggnad
