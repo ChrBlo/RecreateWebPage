@@ -126,6 +126,7 @@
     width: 60px;
     height: 60px;
     color: #003aab;
+    cursor: pointer;
     z-index: 999;
 }
 

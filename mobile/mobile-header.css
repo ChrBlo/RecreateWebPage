@@ -26,9 +26,9 @@ header {
 .first-section {
     position: sticky;
     margin: 0;
-    padding-left: 13rem;
-    padding-right: 13rem;
-    max-height: 2.5rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    max-height: 3.125rem;
     display: flex;
     background-color: #003aab;
     color: white;
@@ -39,6 +39,7 @@ header {
 
 .first-section-info-links-left {
     display: none;
+    min-width: 245px;
 }
 
 .first-section-info-middle {
@@ -57,16 +58,24 @@ header {
 
 .first-section-info-links-right {
     display: none;
+    align-items: center;
+    min-width: 245px;
 }
 
 
 .second-section {
     background: #fffef8;
+    position: relative;
     display: flex;
-    padding: 1rem 1rem 0 1rem;
+    padding-top: 1rem;
     flex: 1;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .second-section-desktop-menu {
@@ -79,7 +88,6 @@ header {
 
 .menu-icon-right {
     display: none;
-
 }
 
 .left-content {
@@ -90,8 +98,6 @@ header {
 .search-bar {
     display: none;
 }
-
-
 
 @media (width >=39.375rem) {
     .first-section-info-middle p{

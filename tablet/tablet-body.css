@@ -9,9 +9,3 @@
         display: block;
     }
 }
-
-@media (width >= 66rem){
-    .zoom-icon-container {
-        bottom: 4rem;
-    }
-}

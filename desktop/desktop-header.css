@@ -72,4 +72,12 @@
         color: #fc6454;
         cursor: pointer;
     }
+
+    .second-section-desktop-menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex: 1;
+    }
+
 }

@@ -11,7 +11,7 @@ body{
     justify-content: flex-start;
     align-items: center;
     font-family: "Special Gothic", sans-serif;
-    font-size: 1rem;
+    font-size: 0.75rem;
     color: black;
 }
 
@@ -32,7 +32,7 @@ body{
 
 .main-outer-body {
     margin: 0;
-    margin-top: 129px;
+    margin-top: 160px;
     margin-bottom: 10px;
     width: 100%;
     height: auto;
@@ -71,6 +71,7 @@ body{
     width: 60px;
     height: 60px;
     color: #ffffff;
+    cursor: pointer;
     z-index: 1000;
 }
 
@@ -90,7 +91,7 @@ body{
 .others-liked-outer {
     margin-top: 56px;
     margin-bottom: 32px;
-    padding-top: 100px;
+    padding-top: 80px;
     display: flex;
     height: auto;
     flex-direction: column;
@@ -174,11 +175,9 @@ body{
     text-align: left;
 }
 
-/* .product-name {
-    font-size: 1.125rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-} */
+.product-name {
+    margin-bottom: 0.9rem;
+} 
 
 #others-liked-measurements{
     color:#6a695e;
@@ -312,9 +311,6 @@ body{
     color:#6a695e;
     font-size: 1rem;
 }
-
-
-
 
 .add-to-cart-section {
     display: flex;
@@ -521,7 +517,7 @@ ul.in-stock-online-list li::before {
 .inner-grid-img {
     position: relative;
     width: 100%;
-    max-width: 499px;
+    /* max-width: 499px; */
 }
 
 .inner-grid-img picture {
@@ -611,6 +607,15 @@ ul.in-stock-online-list li::before {
     cursor: pointer;
 }
 
+.match-with{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.product-detail{
+    cursor: pointer;
+}
+
 
 /* Större eller lika med 768 px */
 @media (width >=48rem) and (width < 50rem) {
@@ -622,7 +627,6 @@ ul.in-stock-online-list li::before {
         grid-column: 3;
         grid-row: 1;
     }
-
 
     .liked-item-4 {
         display: none;
@@ -646,8 +650,10 @@ ul.in-stock-online-list li::before {
 
     .body-grid-container{
         grid-template-columns: minmax(auto, 635px) 394px;
-        grid-template-rows: 664px;        
-        max-height: 664px;
+        /* grid-template-rows: 664px;         */
+        grid-template-rows: 728.23px;
+        /* max-height: 664px; */
+        max-height: 728.23px;
         width: calc(635px + 394px + 20px);
         max-width: min(95%, 1049px); 
         margin-left: auto;
@@ -661,7 +667,7 @@ ul.in-stock-online-list li::before {
 
     .body-grid-item-1 {
         height: 100%;
-        max-height: 664px;
+        max-height: 728.23px;
         width: 100%;
         max-width: 635px;
         overflow: hidden;
@@ -708,8 +714,6 @@ ul.in-stock-online-list li::before {
     .body-product-topmost-info p {
         font-size: 2rem;
     }
-    
-    
 }
 
 @media (width < 50rem) {
@@ -726,8 +730,3 @@ ul.in-stock-online-list li::before {
     }
 }
 
-@media (width >= 56.13rem){
-    .zoom-icon-container {
-        bottom: 2rem;
-    }
-}
