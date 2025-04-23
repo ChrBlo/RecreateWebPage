@@ -67,6 +67,10 @@
         font-size: 1rem;
     }
 
+    .second-section-info-links p{
+        padding-right: 2.5rem;
+    }
+
     .second-section-info-links p:hover {
         text-decoration: underline;
         color: #fc6454;
