@@ -37,13 +37,14 @@ FOOTER
 
 
 ## Skärmdumper på följande skärmbredder från originalsidan:
-630 - 39.38 rem
-768 - 48 rem
-800 - 50 rem
-898 - 56.13 rem
-1023 - 63.94 rem
-1168 - 73 rem
-1280 - 80 rem
+<- 630 / w-xs
+630 - 39.38 rem / "w-1.5xl"
+768 - 48 rem / w-3xl
+800 - 50 rem / "w3.5xl"
+898 - 56.13 rem / w-4xl
+1023 - 63.94 rem / w-5xl
+1168 - 73 rem / w-6xl
+1280 - 80 rem / w-7xl
 
 
 ## Uppgiftskrav från David
@@ -69,4 +70,4 @@ skärmstorlekar - minst en för mobil, en för tablet, och en för desktop.
 [X] 4. Färger, storlekar och avstånd skall matcha orignalhemsidans
 [X] 5. Ett ikonset (css fil från FontAwesome eller MaterialUI) ska laddas in i head taggen,
 ikoner från filen skall sedan användas på minst ett ställe i html-koden.
-[ ] 6. Koden skall vara logiskt strukturerad med tydliga kommentarer för dess uppbyggnad
+[X] 6. Koden skall vara logiskt strukturerad med tydliga kommentarer för dess uppbyggnad
