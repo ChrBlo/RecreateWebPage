@@ -217,7 +217,7 @@ main p{
     position: absolute;
     top: 1.25rem;
     left: 0.94rem;
-    z-index: 9999;
+    z-index: 9998;
 }
 
 .online-only {
