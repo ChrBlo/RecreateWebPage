@@ -1,11 +1,17 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
 @media (width >=80rem) {
 
     header{
         background: #fffef8;
     }
-        .first-section-info-links-left {
+    
+    .first-section-info-links-left {
         display: flex;
-        
+        animation: fadeIn 0.3s ease-in-out forwards;
     }
 
     .mid-border{
@@ -37,7 +43,7 @@
     .first-section-info-links-right {
         display: flex;
         font-weight: bold;
-
+        animation: fadeIn 0.3s ease-in-out forwards;
     }
 
     .first-section-info-links-right a {
@@ -77,6 +83,11 @@
         cursor: pointer;
     }
 
+    .menu-icon-right:hover{
+        color: #fc6454;
+        cursor: pointer;
+    }
+
     .second-section-desktop-menu{
         display: flex;
         flex-direction: row;
@@ -84,4 +95,7 @@
         flex: 1;
     }
 
+    .second-section-info-links{
+        animation: fadeIn 0.3s ease-in-out forwards;
+    }
 }
